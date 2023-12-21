@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +6,15 @@
     font-family:'poppins', sans-serif;
 }
 
-body{
+body
+{
     background: #000000;
     color: #ededed;
 }
 
 /*Header section*/
-.header{
+.header
+{
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +27,8 @@ body{
     z-index: 100;
 }
 
-.logo{
+.logo
+{
     position: relative;
     font-size: 25px;
     color: #ededed;
@@ -32,7 +36,8 @@ body{
     font-weight: 600;
 }
 
-.logo::before{
+.logo::before
+{
     content: '';
     position: absolute;
     top: 0;
@@ -44,7 +49,8 @@ body{
     animation-delay: .4s;
 }
 
-.navber a{
+.navber a
+{
     font-size: 18px;
     color: #ededed;
     text-decoration: none;
@@ -54,7 +60,8 @@ body{
 }
 
 .navber a:hover,
-.navber a.active {
+.navber a.active 
+{
     color: #00abf0;
 }
 
